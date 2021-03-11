@@ -6,7 +6,7 @@ const aws = require('aws-sdk');
 
 let s3 = new aws.S3({
     Token: process.env.S3_TOKEN
-})
+});
 dotenv.config()
 
 client.once('ready', () => {
